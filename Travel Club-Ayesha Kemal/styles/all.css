@@ -1,0 +1,297 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.heading h1 {
+    font-size: 80px;
+}
+.heading p {
+    font-size: 20px;
+}
+
+
+.top-part {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/fff.jpg);
+  /* This picture was taken from https://www.behance.net/gallery/42991363/Suedtirol */
+  height: 60%;
+  width:102%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  right:1%;
+  bottom:1%;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+
+
+  nav ul li:first-child { float: left;
+    margin-top: 6px;
+
+}
+
+  nav ul li {
+    list-style: none;
+    margin:10px;
+    margin-top: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  h2 {
+      border-bottom: solid;
+  }
+
+
+  .photos {
+    display:flex;
+    flex-wrap: nowrap;
+    margin: 25px;
+  }
+
+.people img {
+    width:80%;
+    height: 100%;
+    flex-grow: 1;
+  }
+
+  .photos p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-right: 100px;
+  }
+
+
+
+  .info p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 70px;
+
+
+  }
+
+  .mission p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+
+
+  }
+
+
+  .footer {
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left: 35px;
+
+
+  }
+
+  .logos1 img {
+    width:75px;;
+    height: 75px;;
+    flex-grow: 1;
+
+  }
+
+  .footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+
+  }
+
+
+
+  .travel {
+    display:flex;
+    flex-wrap: nowrap;
+    margin: 25px;
+  }
+
+.dest img {
+  width:550px;
+  height: 350px;
+    flex-grow: 1;
+  }
+
+  .travel p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 50px;
+  }
+
+  .hello img {
+    width:550px;
+    height: 350px;
+    flex-grow: 1;
+  }
+
+  .rica img {
+    width:550px;
+    height: 350px;
+    flex-grow: 1;
+  }
+
+  .mal img {
+    width:550px;
+    height: 350px;
+    flex-grow: 1;
+  }
+
+  .oman img {
+    width:550px;
+    height: 350px;
+    flex-grow: 1;
+  }
+
+  .list ul li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  .list ul{
+    list-style-type: none;
+  }
+
+  #hello{
+    border:solid;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  fieldset {
+    border: none;
+  }
+
+
+  .form_error {
+    color: red;
+    margin-left: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+
+  label {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+
+  }
+
+  #firstname_field {
+    width: 500px;
+    height: 20px;
+    margin-left: 163px;
+    margin-bottom: 20px;
+  }
+
+  #lastname_field {
+    width: 500px;
+    height: 20px;
+    margin-left: 168px;
+    margin-bottom: 20px;
+
+  }
+
+  #netid_field {
+    width: 500px;
+    height: 20px;
+    margin-left: 225px;
+    margin-bottom: 20px;
+
+  }
+
+  #email_field {
+    width: 500px;
+    height: 20px;
+    margin-left: 225px;
+    margin-bottom: 20px;
+
+  }
+
+  #join_field {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    height: 75px;
+    width: 500px;
+
+
+  }
+
+  #joinus {
+    padding: 50px;
+  }
+
+  #conpage {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: none;
+    text-align: center;
+    font-size: 60px;
+  }
+
+
+  #info {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+
+  }
+
+  #current {
+    border-bottom: solid;
+  }
+
+
+  #cap {
+    font-size: 7px;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+
+  .people a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  }
